@@ -5,6 +5,7 @@ import { HeroService } from '../server/hero.service';
 @Component({
   selector: 'app-dashboard',
   templateUrl: './app-dashboard.component.html',
+  styleUrls: ['./app-dashboard.component.css']
 })
 export class AppDashboardComponent implements OnInit {
   constructor(private heroService: HeroService) { }

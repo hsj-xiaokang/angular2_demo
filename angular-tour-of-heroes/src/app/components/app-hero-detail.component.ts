@@ -1,4 +1,6 @@
-import { Component, Input, OnInit } from '@angular/core';
+// 不要父子嵌套了
+// import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, ParamMap } from '@angular/router';
 import { Location } from '@angular/common';
 import 'rxjs/add/operator/switchMap';
@@ -17,7 +19,9 @@ export class AppHeroDetailComponent implements OnInit {
     private route: ActivatedRoute,
     private location: Location
   ) {}
-  @Input() hero: Hero;
+  // 不要父子嵌套了-
+  // @Input() hero: Hero;
+  hero: Hero;
   ngOnInit(): void {
     this.route.paramMap
       .switchMap((params: ParamMap) => this.heroService.getHero(+params.get('id')))

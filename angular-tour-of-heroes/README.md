@@ -34,4 +34,16 @@ run npm start to fire up dev server
 
 
 
-##官网进度->https://www.angular.cn/tutorial/toh-pt1改网页内容完结
+
+#####angular-in-memory-web-api
+npm i angular-in-memory-web-api
+npm i --save angular2-in-memory-web-api
+
+
+
+
+进度->Http 承诺（Promise）
+
+
+
+
