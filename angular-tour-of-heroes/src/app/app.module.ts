@@ -1,3 +1,7 @@
+/**
+ * @author heshengjin
+ * @date 2017-08-24
+ */
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms'; // <-- NgModel lives here

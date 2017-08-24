@@ -1,3 +1,7 @@
+/**
+ * @author heshengjin
+ * @date 2017-08-24
+ */
 // typescript
 export class Hero {
   /**

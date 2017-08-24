@@ -1,3 +1,7 @@
+/**
+ * @author heshengjin
+ * @date 2017-08-24
+ */
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 

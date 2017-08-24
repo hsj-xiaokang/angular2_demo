@@ -1,3 +1,7 @@
+/**
+ * @author heshengjin
+ * @date 2017-08-24
+ */
 import { Injectable } from '@angular/core';
 import { Headers, Http } from '@angular/http';
 import 'rxjs/add/operator/toPromise';

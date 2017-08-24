@@ -1,3 +1,7 @@
+/**
+ * @author heshengjin
+ * @date 2017-08-24
+ */
 // 不要父子嵌套了
 // import { Component, Input, OnInit } from '@angular/core';
 import { Component, OnInit } from '@angular/core';

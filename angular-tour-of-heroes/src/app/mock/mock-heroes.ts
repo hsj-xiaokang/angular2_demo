@@ -1,3 +1,7 @@
+/**
+ * @author heshengjin
+ * @date 2017-08-24
+ */
 import { Hero } from '../classdefind/hero';
 // 自己写死的数据提供者
 export const HEROES: Hero[] = [

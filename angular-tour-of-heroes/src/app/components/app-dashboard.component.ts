@@ -1,3 +1,7 @@
+/**
+ * @author heshengjin
+ * @date 2017-08-24
+ */
 import { Component, OnInit } from '@angular/core';
 import { Hero } from '../classdefind/hero';
 import { HeroService } from '../server/hero.service';
