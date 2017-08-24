@@ -59,3 +59,8 @@ h4 {
     min-width: 60px;
   }
 }
+.serachInputPosition{
+  position: absolute;
+  left: 84%;
+  top: 3%;
+}

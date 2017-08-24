@@ -1,4 +1,6 @@
 import { InMemoryDbService } from 'angular-in-memory-web-api';
+// mock/in-memory-data.service mock数据提供者
+// 之后使用服务端的数据就可以去除了mock数据
 export class InMemoryDataService implements InMemoryDbService {
   createDb() {
     const heroes_ = [

@@ -30,19 +30,23 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 run npm install to install dependencies
 run npm start to fire up dev server
+拿到这个项目必须需搭建好angular2的环境，这个官网中文的一个教程的demo例子，你可以下载好了运行查看效果，学习代码
+
+npm install 安装
+
+npm start启动在4200端口查看效果
 
 
 
 
 
-#####angular-in-memory-web-api
+#####angular-in-memory-web-api--相当于mock的测试，在你npm install之后必须下面的两个一个一个的安装，不然就会报错！！！！，顺序也不要颠倒！！#########
 npm i angular-in-memory-web-api
 npm i --save angular2-in-memory-web-api
 
 
 
 
-进度->Http 承诺（Promise）
 
 
 

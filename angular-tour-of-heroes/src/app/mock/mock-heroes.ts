@@ -1,5 +1,5 @@
 import { Hero } from '../classdefind/hero';
-
+// 自己写死的数据提供者
 export const HEROES: Hero[] = [
   { id: 11, name: 'Mr. Nice' },
   { id: 12, name: 'Narco' },

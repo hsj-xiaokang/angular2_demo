@@ -1,10 +1,20 @@
 <ul class="heroes">
+  <app-hero-search class="serachInputPosition"></app-hero-search>
     <!-- each hero goes here -->
    <li *ngFor="let hero of heroes" [class.selected]="hero === selectedHero" (click)="onSelect(hero)">
      <span class="badge">{{hero.id}}</span>
      <span>{{hero.name}}</span>
+     <button class="delete"
+             (click)="delete(hero); $event.stopPropagation()">x</button>
    </li>
 </ul>
+
+<div>
+  <label>Hero name:</label> <input #heroName />
+  <button (click)="add(heroName.value); heroName.value=''">
+    Add
+  </button>
+</div>
 
 <!--不要父子嵌套了-->
 <!--<app-hero-detail [hero]="selectedHero"></app-hero-detail>-->
